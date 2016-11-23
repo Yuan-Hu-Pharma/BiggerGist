@@ -187,8 +187,12 @@ def printCentroid():
         if (rangez%2):
             rangez+=1
     
+    rangex = int(rangex)
+    rangey = int(rangey)
+    rangez = int(rangez)
+
     print("Recommended gist input command given input file (presumed ligand or binding cavity .pdb file")
-    print("gist gridspacn 0.5 gridcntr {0} {1} {2} griddim {3} {4} {5}".format(x,y,z,rangex,rangey,rangez) )
+    print("gist gridspacn 0.5 gridcntr {0:6.3f} {1:6.3f} {2:6.3f} griddim {3} {4} {5}".format(x,y,z,rangex,rangey,rangez) )
     
     return
 
