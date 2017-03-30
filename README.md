@@ -1,6 +1,8 @@
 # BiggerGist
 repository for containing code that enables users to run GIST on large regions of interest via a massively serial approach
 
+This code is in a developmental stage and is not ready for prime time
+
 The structure of this code will be a wrapper script that will take a users input command for GIST and break it into n number of GIST processes, then run the gistpp cat command to combine the regions of interest such that the user can analyze a region of interest that would otherwise be too large.
 
 The wrapper script will require a functioning version of gistpp with the cat command. 
