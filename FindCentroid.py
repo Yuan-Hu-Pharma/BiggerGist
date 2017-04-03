@@ -171,9 +171,9 @@ def printCentroid():
     rangey = maxy-miny
     rangez = maxz-minz
     
-    rangex*=3
-    rangey*=3
-    rangez*=3
+    rangex*=5
+    rangey*=5
+    rangez*=5
 
     rangex=round(rangex)
     rangey=round(rangey)
@@ -191,7 +191,7 @@ def printCentroid():
     rangey = int(rangey)
     rangez = int(rangez)
 
-    print("Recommended gist input command given input file (presumed ligand or binding cavity .pdb file")
+    print("Recommended gist input command given input file (presumed ligand or binding cavity .pdb file)")
     print("gist gridspacn 0.5 gridcntr {0:6.3f} {1:6.3f} {2:6.3f} griddim {3} {4} {5}".format(x,y,z,rangex,rangey,rangez) )
     
     return
